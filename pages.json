@@ -1,0 +1,483 @@
+{
+  "easycom": {
+    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [{
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "enablePullDownRefresh": false
+      }
+
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarBackgroundColor": "#00dfd7",
+        "navigationBarTitleText": "智购协同",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/Mission/Mission",
+      "style": {
+        "navigationBarBackgroundColor": "#00dfd7",
+        "navigationBarTitleText": "智购协同",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/inviter/teaminviter",
+      "style": {
+        "navigationBarBackgroundColor": "#00dfd7",
+        "navigationBarTitleText": "团队二维码",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarBackgroundColor": "#00DFD7",
+        "navigationBarTitleText": "我的",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/addressAdd/addressAdd",
+      "style": {
+        "navigationBarBackgroundColor": "#00dfd7",
+        "navigationBarTitleText": "添加地址",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/addressdetail/addressdetail",
+      "style": {
+        "navigationBarBackgroundColor": "#00dfd7",
+        "navigationBarTitleText": "修改地址",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/inviter/inviter",
+      "style": {
+        "navigationBarTitleText": "二维码"
+      }
+    },
+    {
+      "path": "pages/inviterkefu/inviterkefu",
+      "style": {
+        "navigationBarTitleText": "联系客服"
+      }
+    },
+    {
+      "path": "pages/course/course",
+      "style": {
+        "navigationBarTitleText": "使用教程"
+      }
+    },
+    {
+      "path": "pages/capital/capital",
+      "style": {
+        "navigationBarTitleText": "资金明细"
+      }
+    },
+    {
+      "path": "pages/withdraw/withdrawtrue",
+      "style": {
+        "navigationBarTitleText": "提现佣金"
+      }
+    },
+    {
+      "path": "pages/withdraw/withdraw",
+      "style": {
+        "navigationBarTitleText": "提现佣金"
+      }
+    },
+    {
+      "path": "pages/money/money",
+      "style": {
+        "navigationBarTitleText": "钱包"
+      }
+    },
+    {
+      "path": "pages/income/income",
+      "style": {
+        "navigationBarTitleText": "资金收入"
+      }
+    },
+    {
+      "path": "pages/statistical/statistical",
+      "style": {
+        "navigationBarTitleText": "数据统计"
+      }
+    },
+    {
+      "path": "pages/bindingPhone/bindingPhone",
+      "style": {
+        "navigationBarBackgroundColor": "#00dfd7",
+        "navigationBarTitleText": "更换手机号",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/clueSubmit/clueSubmit",
+      "style": {
+        "navigationBarBackgroundColor": "#00DFD7",
+        "navigationBarTitleText": "线索提交",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/stickSubmit/stickSubmit",
+      "style": {
+        "navigationBarBackgroundColor": "#00DFD7",
+        "navigationBarTitleText": "问答提交",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/stickSubmit1/stickSubmit",
+      "style": {
+        "navigationBarTitleText": "问答提交"
+      }
+    },
+    {
+      "path": "pages/sellSubmit/sellSubmit",
+      "style": {
+        "navigationBarBackgroundColor": "#00DFD7",
+        "navigationBarTitleText": "发现售货机",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/sellSubmit1/sellSubmit",
+      "style": {
+        "navigationBarBackgroundColor": "#00DFD7",
+        "navigationBarTitleText": "发现售货机",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/signList/signList",
+      "style": {
+        "navigationBarTitleText": "有奖征文",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/signDetails/signDetails",
+      "style": {
+        "navigationBarBackgroundColor": "#00DFD7",
+        "navigationBarTitleText": "征文详情",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/signSubmit/signSubmit",
+      "style": {
+        "navigationBarBackgroundColor": "#00DFD7",
+        "navigationBarTitleText": "提交文章",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/information/information",
+      "style": {
+        "navigationBarBackgroundColor": "#00dfd7",
+        "navigationBarTitleText": "信息修改",
+        "navigationBarTextStyle": "white",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/addressList/addressList",
+      "style": {
+        "navigationBarTitleText": "地址管理"
+      }
+    },
+    {
+      "path": "pages/courtesy/courtesy",
+      "style": {
+        "navigationBarTitleText": "邀请有礼"
+      }
+    },
+    {
+      "path": "pages/logs/logs",
+      "style": {
+        "navigationBarTitleText": "查看启动日志"
+      }
+    },
+    {
+      "path": "pages/mysubmit/mysubmit",
+      "style": {
+        "navigationBarTitleText": "我的提交"
+      }
+    },
+    {
+      "path": "pages/courselist/courselist",
+      "style": {
+        "navigationBarTitleText": "使用教程"
+      }
+    },
+    {
+      "path": "pages/material/material",
+      "style": {
+        "navigationBarTitleText": "素材",
+        "onReachBottomDistance": 50,
+        "enablePullDownRefresh":true
+      }
+    },
+    {
+      "path": "pages/mysubmit/cause",
+      "style": {
+        "navigationBarTitleText": "未通过原因"
+      }
+    },
+    {
+      "path": "pages/banned/banned",
+      "style": {
+        "navigationBarTitleText": "封号",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/bannerdetail/bannerdetail",
+      "style": {
+        "navigationBarTitleText": "公告详情"
+      }
+    },
+    {
+      "path": "pages/shop/shop",
+      "style": {
+        "navigationBarTitleText": "辅助硬件"
+      }
+    },
+    {
+      "path": "pages/allorder/allorder",
+      "style": {
+        "navigationBarTitleText": "全部订单"
+      }
+    }
+
+    , {
+      "path": "pages/register/register",
+      "style": {
+        "navigationBarTitleText": "注册",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/register/forget",
+      "style": {
+        "navigationBarTitleText": "忘记密码",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/teambox/teambox",
+      "style": {
+        "navigationBarTitleText": "团队",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/teambox/newteam",
+      "style": {
+        "navigationBarTitleText": "创建团队",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/teambox/TeamPlay",
+      "style": {
+        "navigationBarTitleText": "团队大厅",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/teambox/Teamdetail",
+      "style": {
+        "navigationBarTitleText": "单子详情",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/teambox/release",
+      "style": {
+        "navigationBarTitleText": "发布",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/teambox/release1",
+      "style": {
+        "navigationBarTitleText": "智购协同",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/my/setting",
+      "style": {
+        "navigationBarTitleText": "设置",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/my/safety",
+      "style": {
+        "navigationBarTitleText": "设置",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/bindingPhone/bindingword",
+      "style": {
+        "navigationBarTitleText": "修改密码",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/my/signbox",
+      "style": {
+        "navigationBarTitleText": "签到",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/my/releaselist",
+      "style": {
+        "navigationBarTitleText": "发布任务列表",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/my/missionlist",
+      "style": {
+        "navigationBarTitleText": "我的任务列表",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/teambox/myteam",
+      "style": {
+        "navigationBarTitleText": "我的团队",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "提交",
+              "type": "none",
+              "color": "#ffffff",
+              "background": "##00DFD7",
+              "fontSize": "16px"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/teambox/review",
+      "style": {
+        "navigationBarTitleText": "任务审核",
+        "enablePullDownRefresh": false
+      }
+
+    },
+    {
+      "path": "pages/index/indexdetail",
+      "style": {
+        "navigationBarTitleText": "任务列表",
+        "enablePullDownRefresh": false
+      }
+
+    }
+
+      ,{
+            "path" : "pages/teambox/teamlist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "团队列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/loginreg",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户协议",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/loginyinsi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "隐私政策",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/loginweb",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于获取地址，来确认您提交的信息是否虚假"
+    }
+  },
+  "style": "v2",
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#282828",
+    "selectedColor": "#282828",
+    "borderStyle": "white",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/image/tab/home1.png",
+        "selectedIconPath": "/static/image/tab/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/teambox/teambox",
+        "iconPath": "/static/image/tab/jiaocheng.png",
+        "selectedIconPath": "/static/image/tab/jiaocheng1.png",
+        "text": "团队协作"
+      },
+      {
+        "pagePath": "pages/material/material",
+        "iconPath": "/static/image/tab/sucai.png",
+        "selectedIconPath": "/static/image/tab/sucai1.png",
+        "text": "素材"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "/static/image/tab/yingjian.png",
+        "selectedIconPath": "/static/image/tab/yingjian1.png",
+        "text": "硬件辅助"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "/static/image/tab/my1.png",
+        "selectedIconPath": "/static/image/tab/my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00DFD7",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "white"
+  },
+  "subPackages": []
+}

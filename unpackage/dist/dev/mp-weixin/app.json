@@ -1,0 +1,108 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/Mission/Mission",
+    "pages/inviter/teaminviter",
+    "pages/my/my",
+    "pages/addressAdd/addressAdd",
+    "pages/addressdetail/addressdetail",
+    "pages/inviter/inviter",
+    "pages/inviterkefu/inviterkefu",
+    "pages/course/course",
+    "pages/capital/capital",
+    "pages/withdraw/withdrawtrue",
+    "pages/withdraw/withdraw",
+    "pages/money/money",
+    "pages/income/income",
+    "pages/statistical/statistical",
+    "pages/bindingPhone/bindingPhone",
+    "pages/clueSubmit/clueSubmit",
+    "pages/stickSubmit/stickSubmit",
+    "pages/stickSubmit1/stickSubmit",
+    "pages/sellSubmit/sellSubmit",
+    "pages/sellSubmit1/sellSubmit",
+    "pages/signList/signList",
+    "pages/signDetails/signDetails",
+    "pages/signSubmit/signSubmit",
+    "pages/information/information",
+    "pages/addressList/addressList",
+    "pages/courtesy/courtesy",
+    "pages/logs/logs",
+    "pages/mysubmit/mysubmit",
+    "pages/courselist/courselist",
+    "pages/material/material",
+    "pages/mysubmit/cause",
+    "pages/banned/banned",
+    "pages/bannerdetail/bannerdetail",
+    "pages/shop/shop",
+    "pages/allorder/allorder",
+    "pages/register/register",
+    "pages/register/forget",
+    "pages/teambox/teambox",
+    "pages/teambox/newteam",
+    "pages/teambox/TeamPlay",
+    "pages/teambox/Teamdetail",
+    "pages/teambox/release",
+    "pages/teambox/release1",
+    "pages/my/setting",
+    "pages/my/safety",
+    "pages/bindingPhone/bindingword",
+    "pages/my/signbox",
+    "pages/my/releaselist",
+    "pages/my/missionlist",
+    "pages/teambox/myteam",
+    "pages/teambox/review",
+    "pages/index/indexdetail",
+    "pages/teambox/teamlist",
+    "pages/login/loginreg",
+    "pages/login/loginyinsi"
+  ],
+  "subPackages": [],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00DFD7",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#282828",
+    "selectedColor": "#282828",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/image/tab/home1.png",
+        "selectedIconPath": "/static/image/tab/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/teambox/teambox",
+        "iconPath": "/static/image/tab/jiaocheng.png",
+        "selectedIconPath": "/static/image/tab/jiaocheng1.png",
+        "text": "团队协作"
+      },
+      {
+        "pagePath": "pages/material/material",
+        "iconPath": "/static/image/tab/sucai.png",
+        "selectedIconPath": "/static/image/tab/sucai1.png",
+        "text": "素材"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "/static/image/tab/yingjian.png",
+        "selectedIconPath": "/static/image/tab/yingjian1.png",
+        "text": "硬件辅助"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "/static/image/tab/my1.png",
+        "selectedIconPath": "/static/image/tab/my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
